@@ -1,5 +1,7 @@
 # Amazon listing audit checklist
 
+![Listing audit checklist illustration](../assets/listvaro-listing-audit.png)
+
 A transparent pre-edit checklist for an Amazon product detail page. It is deliberately platform-agnostic: verify the current marketplace rules before publishing any change. For an automated report with issue evidence and prioritization, open [Listvaro Amazon Listing Audit](https://listvaro.com/?utm_source=github&utm_medium=referral&utm_campaign=listing-audit-checklist).
 
 ## Checklist
