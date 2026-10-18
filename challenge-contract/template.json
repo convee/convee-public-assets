@@ -1,0 +1,9 @@
+{
+  "name": "",
+  "startDate": "YYYY-MM-DD",
+  "durationDays": 30,
+  "completionRule": "",
+  "dailyItems": [""],
+  "difficultDayPlan": "",
+  "weeklyCheckIn": ""
+}

@@ -1,0 +1,11 @@
+{
+  "name": "90-day Winter Arc",
+  "durationDays": 90,
+  "rules": [
+    { "label": "", "frequency": "daily", "answer": "yes_no" },
+    { "label": "", "frequency": "daily", "answer": "yes_no" },
+    { "label": "", "frequency": "daily", "answer": "yes_no" }
+  ],
+  "minimumVersion": "",
+  "missedDayPlan": ""
+}
