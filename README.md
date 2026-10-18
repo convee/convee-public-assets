@@ -17,3 +17,9 @@ The live tools remain the source of truth for generated dates, calculations, and
 - [AngleCue](https://anglecue.app/?utm_source=github&utm_medium=referral&utm_campaign=public-assets)
 
 These files contain no product secrets, credentials, customer data, or production implementation.
+
+## Distribution assets
+
+- [AngleCue Page Notes Chrome extension source](./anglecue-extension/README.md) and [uploadable ZIP](./releases/anglecue-page-notes-0.1.0.zip). It stores notes locally and does not send page data to a server.
+- [Listvaro audit schema package source](./listing-audit-schema/README.md). The package passes `npm test` and `npm pack --dry-run`; publishing requires an authenticated npm account.
+- [Notion public guide](https://atlantic-tsunami-b97.notion.site/Convee-Public-Tools-Templates-3fdefbae8b2380428307e37f55b39bf2), published with search-engine discovery enabled.
