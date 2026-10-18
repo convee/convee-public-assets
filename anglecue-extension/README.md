@@ -10,3 +10,6 @@ A small Manifest V3 Chrome extension that captures the active page title, URL, f
 4. Open a product page, click the extension, then click **Capture current page**.
 
 The Chrome Web Store listing still needs a store icon, privacy disclosure, screenshots, and the developer registration/publishing step.
+
+
+A ready-to-upload archive is available at `../releases/anglecue-page-notes-0.1.0.zip`.
