@@ -1,0 +1,17 @@
+:root { color-scheme: light; font: 14px/1.45 system-ui, -apple-system, sans-serif; }
+body { width: 330px; margin: 0; background: #fffaf5; color: #1f2937; }
+main { padding: 18px; }
+.eyebrow { margin: 0 0 3px; color: #d65b4a; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: 11px; }
+h1 { margin: 0 0 5px; font-size: 22px; }
+.lede { margin: 0 0 14px; color: #59636d; }
+label { display: block; margin: 13px 0 5px; font-weight: 650; }
+select, textarea, button { width: 100%; box-sizing: border-box; border: 1px solid #d7d0c8; border-radius: 8px; font: inherit; }
+select, textarea { padding: 9px; background: #fff; }
+textarea { resize: vertical; }
+button { padding: 9px 11px; cursor: pointer; background: #fff; color: #283542; }
+button.primary, #capture { background: #283c59; color: #fff; border-color: #283c59; }
+#capture { margin: 0 0 8px; }
+.actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 14px; }
+.page { min-height: 18px; margin: 0; color: #59636d; overflow-wrap: anywhere; }
+.status { min-height: 18px; color: #2c6b55; }
+a { display: inline-block; margin-top: 8px; color: #b6463a; }

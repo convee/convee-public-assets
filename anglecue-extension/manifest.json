@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "AngleCue Page Notes",
+  "version": "0.1.0",
+  "description": "Capture a product page, a buyer hesitation, and the evidence behind it without sending page data anywhere.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_title": "AngleCue Page Notes",
+    "default_popup": "popup.html"
+  }
+}

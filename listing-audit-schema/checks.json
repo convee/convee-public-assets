@@ -1,0 +1,10 @@
+[
+  { "id": "title_clarity", "area": "title", "severity": "high" },
+  { "id": "image_coverage", "area": "images", "severity": "high" },
+  { "id": "bullet_benefit", "area": "bullets", "severity": "medium" },
+  { "id": "claim_evidence", "area": "description", "severity": "high" },
+  { "id": "search_term_match", "area": "search_terms", "severity": "medium" },
+  { "id": "variation_integrity", "area": "variations", "severity": "high" },
+  { "id": "compliance_review", "area": "compliance", "severity": "high" },
+  { "id": "offer_freshness", "area": "offer", "severity": "medium" }
+]

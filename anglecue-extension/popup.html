@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AngleCue Page Notes</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <p class="eyebrow">AngleCue</p>
+    <h1>Page notes</h1>
+    <p class="lede">Capture the page and write down the question a buyer may still have.</p>
+    <button id="capture" type="button">Capture current page</button>
+    <p id="page" class="page" aria-live="polite">No page captured yet.</p>
+    <label for="reason">What might make a buyer pause?</label>
+    <select id="reason">
+      <option value="unclear_benefit">Unclear benefit</option>
+      <option value="missing_proof">Missing proof</option>
+      <option value="offer_or_delivery">Offer or delivery concern</option>
+      <option value="comparison">Comparison question</option>
+      <option value="trust">Trust concern</option>
+      <option value="other">Other</option>
+    </select>
+    <label for="note">Evidence or question</label>
+    <textarea id="note" rows="5" placeholder="Write what you saw on the page."></textarea>
+    <div class="actions">
+      <button id="save" type="button" class="primary">Save note</button>
+      <button id="export" type="button">Export JSON</button>
+    </div>
+    <p id="status" class="status" role="status"></p>
+    <a href="https://anglecue.app/?utm_source=chrome&utm_medium=extension&utm_campaign=page-notes" target="_blank" rel="noreferrer">Open AngleCue</a>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

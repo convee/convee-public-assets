@@ -1,0 +1,14 @@
+{
+  "name": "@convee/listing-audit-schema",
+  "version": "0.1.0",
+  "description": "Small, transparent checklist schema for reviewing an Amazon product listing.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./checks.json": "./checks.json"
+  },
+  "files": ["src", "checks.json", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
